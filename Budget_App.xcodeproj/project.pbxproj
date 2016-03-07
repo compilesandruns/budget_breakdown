@@ -17,6 +17,8 @@
 		9AD535571C8D236700E22D59 /* Budget_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD535561C8D236700E22D59 /* Budget_AppTests.m */; };
 		9AD535621C8D236700E22D59 /* Budget_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD535611C8D236700E22D59 /* Budget_AppUITests.m */; };
 		9AD535711C8DE6D800E22D59 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD535701C8DE6D800E22D59 /* AddItemViewController.m */; };
+		9AD535791C8E290200E22D59 /* BudgetItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD535761C8E290200E22D59 /* BudgetItem+CoreDataProperties.m */; };
+		9AD5357A1C8E290200E22D59 /* BudgetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD535781C8E290200E22D59 /* BudgetItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		9AD535631C8D236700E22D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD5356F1C8DE6D800E22D59 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
 		9AD535701C8DE6D800E22D59 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		9AD535751C8E290200E22D59 /* BudgetItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BudgetItem+CoreDataProperties.h"; path = "Budget_App/BudgetItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9AD535761C8E290200E22D59 /* BudgetItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BudgetItem+CoreDataProperties.m"; path = "Budget_App/BudgetItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9AD535771C8E290200E22D59 /* BudgetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BudgetItem.h; path = Budget_App/BudgetItem.h; sourceTree = "<group>"; };
+		9AD535781C8E290200E22D59 /* BudgetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BudgetItem.m; path = Budget_App/BudgetItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 		9AD5352D1C8D236600E22D59 = {
 			isa = PBXGroup;
 			children = (
+				9AD535751C8E290200E22D59 /* BudgetItem+CoreDataProperties.h */,
+				9AD535761C8E290200E22D59 /* BudgetItem+CoreDataProperties.m */,
+				9AD535771C8E290200E22D59 /* BudgetItem.h */,
+				9AD535781C8E290200E22D59 /* BudgetItem.m */,
 				9AD535381C8D236600E22D59 /* Budget_App */,
 				9AD535551C8D236700E22D59 /* Budget_AppTests */,
 				9AD535601C8D236700E22D59 /* Budget_AppUITests */,
@@ -284,7 +294,9 @@
 				9AD535411C8D236600E22D59 /* ViewController.m in Sources */,
 				9AD5353E1C8D236600E22D59 /* AppDelegate.m in Sources */,
 				9AD535471C8D236600E22D59 /* Budget_App.xcdatamodeld in Sources */,
+				9AD535791C8E290200E22D59 /* BudgetItem+CoreDataProperties.m in Sources */,
 				9AD535711C8DE6D800E22D59 /* AddItemViewController.m in Sources */,
+				9AD5357A1C8E290200E22D59 /* BudgetItem.m in Sources */,
 				9AD5353B1C8D236600E22D59 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

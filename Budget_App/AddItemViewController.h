@@ -10,4 +10,11 @@
 
 @interface AddItemViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIPickerView *categotyPicker;
+@property (weak, nonatomic) IBOutlet UITextField *itemNameTextBox;
+@property (weak, nonatomic) IBOutlet UITextField *itemAmountTextBox;
+@property (weak, nonatomic) IBOutlet UITextField *itemPaidFrequencyTextBox;
+@property (weak, nonatomic) IBOutlet UIPickerView *itemPaidFrequencyPicker;
+@property (weak, nonatomic) IBOutlet UITextView *notesTextField;
+
 @end
